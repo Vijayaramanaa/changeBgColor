@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.appcop{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  background-color: rgb(245, 238, 229);
+  
+}
+.square{
+  border: 3px solid rgb(8, 3, 3);
+  width: 50vh;
+  height: 50vh;
+  align-items:center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+  border-radius: 20px;
+  box-shadow: 3px 4px 20px 2px ;
+  font-weight: bolder;
+  
+}
+.inputc{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  width: 30vw;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  
+  
+
+}
+.inone{
+  margin: 5px 5px;
+  border:white;
+ 
+  border-radius: 20px;
+  padding:2px 2px;
+  box-shadow: 2px 2px 20px 2px red;
+  text-indent:40px ;
+  color: chartreuse;
+}
+.intwo{
+  border: 2px solid black;
+  padding: 8px 8px;
+  color: rgb(180, 8, 51);
+  background-color: aqua;
+  margin: 10px 10px;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+
